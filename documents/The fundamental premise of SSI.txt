@@ -1,0 +1,31 @@
+The fundamental premise of SSI is that individuals have sovereignty over their digital selves and thus control over their data.
+
+This concept fundamentally distinguishes SSI from previous identity models, which viewed individuals as users. 
+
+In this new model, sovereign individuals store and manage their data, thereby controlling with whom their private data are shared and to what extent.
+
+Although philosophers such as John Locke and Stuart Mill have written about the sovereignty of individuals in past centuries established the first widely accepted link between sovereignty and digital identity.
+
+Thereafter, the meaning of sovereign identity was debated, and technology standards were proposed.
+
+Significant momentum was obtained, especially in academia, after Christopher Allen laid out what he proposed to be the ten principles of SSI, which are detailed next.
+
+First, individuals must have an existence independent of their digital selves, i.e., they cannot exist only virtually. 
+
+A (self-sovereign) identity works by sharing the desired (digital) aspects of the individual. 
+
+Second, people must control their identities by owning and managing their attributes, which does not prohibit them from making claims about other people.
+
+Third, people must have access to their data and claims by storing them or being readily available if they are outsourced.
+
+Fourth, all systems must be transparent and the underlying algorithms must be free and open-source, thus allowing detailed examination by anyone.
+
+Fifth, identities must persist forever or as long as individuals wish. 
+
+Sixth and seventh, identities and their claims must be portable across different systems and technologies, which requires interoperability between standards and implementations.
+
+Eighth and ninth, people need to consent to the use and sharing of their data, while data disclosure must be minimized to the absolute minimum.
+
+For instance, to find out if a person can buy an alcoholic beverage, it is unnecessary to share their date of birth.
+
+Tenth, at the end of the day, individuals’ rights must be protected, which means that systems must be designed to avoid censorship and to protect individuals’ rights, even at the expense of the system.
