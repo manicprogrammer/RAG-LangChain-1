@@ -1,0 +1,1 @@
+The "state_of_the_union.txt" file was provided in an example code that I used to create this code. Notice it double spaced between each sentence. This was used to create context that was one sentence long for each chunk. A hack in the original example I used. The "fundamental premise of SSI.txt" is from a paper and I formatted it the same way to get similar results.

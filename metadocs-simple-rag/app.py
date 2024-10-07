@@ -24,6 +24,9 @@ uploaded_file = st.file_uploader("Choose a txt file", type="txt")
 if uploaded_file is not None:
     string_data = uploaded_file.getvalue().decode("utf-8")
 
+    # I found that if I parse off a single \n it doesn't seem to work so well. I find that perplexing and get
+    # the same poor results if I setup the document as \n after every line versus the example test docs as they are 
+    # provieded with \n\n. More experimentation is needed to understand why this is the case.
     split_data = string_data.split("\n\n")
 
     vectorstore = FAISS.from_texts(split_data, embedding=embedding)
@@ -35,7 +38,8 @@ if uploaded_file is not None:
         | model
         | StrOutputParser()
     )
-
+    # have been using "Who played a major role in defending the ukraine ? Explain to me in 5 lines"
+    # and what are the 10 principles of SSI?
     question = st.text_input("Input your question for the uploaded document")
 
     result = chain.invoke(question)
